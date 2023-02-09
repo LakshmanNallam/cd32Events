@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.mainDiv {
+  min-height: 100vh;
+  display: flex;
+}
+.leftCon {
+  width: 60%;
+  background-color: #64748b;
+  padding-left: 29px;
+
+  min-height: 100vh;
+  color: white;
+}
+.leftCon2 {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.rightCon {
+  width: 40%;
+  background-color: aqua;
+}
+.CardCon {
+  width: 40%;
+  margin: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.imgHoler {
+  width: 100%;
+}
+.Img {
+  width: 100%;
+}
